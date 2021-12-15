@@ -1,0 +1,38 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url('../img/background.jpg') no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    
+}
+
+.app-container {
+	max-width: 550px;
+	width: 100%;
+	padding: 25px;
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 0 62px black);
+}
+
+.app-container h3 {
+	margin: 0 0 25px;
+}
+
+.new-task-container {
+	margin-bottom: 22px;
+}
+
+.tasks-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.single-task {
+	margin-bottom: 12px;
+}
